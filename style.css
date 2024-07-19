@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    height: 700px;
+    width: 100%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.third{
+    background-color: aliceblue;
+    height: 550px;
+    width: 320px;
+    padding: 15px;
+    padding-left:10px;
+    border: solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+    
+    
+    
+}
+.second{
+    
+    background-color: rgba(247, 171, 247, 0.5);
+    height: 25px;
+    width: 120px;
+    border-color: azure;
+    color: #ce1ba1;
+    padding:10px;
+
+}
+.fourth{
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+    background-color: aliceblue;
+    padding: 20px;
+    
+}
+
+.sixth{
+    
+    color: #df96ce;
+}
+.seventh{
+    color: #9a1eec;
+    font-weight: bold;
+}
+.eight{
+    height:10px;
+    margin-left:10px;
+    padding: 10px;
+    width:30px;
+    
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-container .btn {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+
+.btn-container .btns {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: rgba(247, 171, 247, 0.5);
+    outline: none;
+}
+
+.fa-solid {
+    padding-right: 5px;
+    color: #9a1eec;
+}
